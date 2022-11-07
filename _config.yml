@@ -86,12 +86,12 @@ plugins:
 
 # Front Matter Defaults
 defaults:
-  # Post defaults
+  # Event defaults
   - scope:
       path: "_events"
       type: events
     values:
-      layout: post
+      layout: event
       comments: false
       share: false
 
