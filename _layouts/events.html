@@ -1,29 +1,15 @@
 ---
-layout: event
+layout: default
 ---
 
-{{ content }}
-
-<ul class="taxonomy-index">
-  {% assign postsInYear = site.events | group_by_exp: 'event', 'event.date | date: "%Y"' %}
-  {% for year in postsInYear %}
+<ul>
+  {% for event in site.events %}
     <li>
-      <a href="#{{ year.name }}">
-        <strong>{{ year.name }}</strong> <span class="taxonomy-count">{{ year.items | size }}</span>
-      </a>
+      <a href="{{ event.url }}">{{ event.title }}</a>
     </li>
   {% endfor %}
 </ul>
 
-{% assign postsByYear = event.posts | group_by_exp: 'event', 'event.date | date: "%Y"' %}
-{% for year in postsByYear %}
-  <section id="{{ year.name }}" class="taxonomy-section">
-    <h2 class="taxonomy-title">{{ year.name }}</h2>
-    <div class="entries-{{ event.entries_layout | default: 'list' }}">
-      {% for entry in year.items %}
-        {% include entry.html %}
-      {% endfor %}
-    </div>
-    <a href="#event-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-  </section>
-{% endfor %}
+
+{{ content }}
+
