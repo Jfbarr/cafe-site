@@ -2,6 +2,10 @@
 
 - title: Home
   url: /
+- title: Menu
+  url: /menu
+- title: Events
+  url: /events
 # - title: Posts
 #   url: /posts/
 # - title: Categories
