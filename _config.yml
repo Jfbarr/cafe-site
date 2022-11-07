@@ -18,8 +18,8 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "Generic Cafe Title"
-description: "'A moving quote or other statement'"
+title: "Name Goes Here"
+description: "Lorem ipsum dolor sit amet"
 baseurl: "/cafe-site"
 url: "https://jfbarr.github.io"
 logo: "/images/Cat03.jpg"
