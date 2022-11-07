@@ -88,10 +88,10 @@ plugins:
 defaults:
   # Event defaults
   - scope:
-      path: "_events"
-      type: events
+      path: "_posts"
+      type: posts
     values:
-      layout: event
+      layout: post
       comments: false
       share: false
 
