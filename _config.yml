@@ -91,17 +91,16 @@ defaults:
 
 # Site Author
 author:
-  name:
-  picture:
-  email:
-  twitter:
   links:
-    - title:
-      url:
-      icon:
+    - title: Facebook
+      url: https://www.facebook.com/jasper.barr
+      icon: fab fa-facebook
+    - title: Instagram
+      url: https://www.instagram.com/foxatthebarr/?hl=en
+      icon: fab fa-instagram
+    - title: GitHub
+      url: https://github.com/Jfbarr
+      icon: fab fa-github-square
 
 # Footer Links
-footer_links:
-  - title: Feed
-    url: atom.xml
-    icon: fas fa-rss-square
+
