@@ -1,9 +1,7 @@
 ---
 title: What's happening
-layout: collection
+layout: posts
 permalink: /events/
-collection: events
-entries_layout: grid
+show_excerpts: true
+entries_layout: list
 ---
-
-Sample document listing for the collection `_events`.
