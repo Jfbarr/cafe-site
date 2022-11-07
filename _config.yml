@@ -18,8 +18,8 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "So Simple"
-description: "A simple Jekyll theme for words and pictures."
+title: "Generic Cafe Title"
+description: "'A moving quote or other statement'"
 baseurl: "/cafe-site"
 url: "https://jfbarr.github.io"
 logo: "/images/Cat03.jpg"
