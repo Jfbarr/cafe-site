@@ -1,6 +1,6 @@
 ---
 title: What's happening
-layout: posts
+layout: events
 permalink: /events/
 show_excerpts: true
 entries_layout: list
