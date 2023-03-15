@@ -18,8 +18,8 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "XXX Specialty Coffee"
-description: "Lorem ipsum dolor sit amet"
+title: "Crave Specialty Coffee"
+description: "Smashing Avos & All Day Brunch"
 baseurl: "/cafe-site"
 url: "https://jfbarr.github.io"
 logo: "/images/Cat03.jpg"
