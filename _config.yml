@@ -97,10 +97,10 @@ defaults:
 
 # Footer Links
 footer_links:
-  - title: Facebook
+  - title: facebook
     url: https://www.facebook.com/cravespecialtycoffee/
     icon: fab fa-facebook
-  - title: Instagram
+  - title: instagram
     url: https://www.instagram.com/crave.specialtycoffee/?hl=en
     icon: fab fa-instagram
   - title: Google Maps
