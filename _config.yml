@@ -98,11 +98,12 @@ defaults:
 # Footer Links
 footer_links:
   - title: Facebook
-    url: https://www.facebook.com/jasper.barr
+    url: https://www.facebook.com/cravespecialtycoffee/
     icon: fab fa-facebook
   - title: Instagram
-    url: https://www.instagram.com/foxatthebarr/?hl=en
+    url: https://www.instagram.com/crave.specialtycoffee/?hl=en
     icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/jfbarr
-    icon: fab fa-github-square
+  - title: Google Maps
+    url: https://goo.gl/maps/tF6UWQVMEJqmrYHa6
+    icon: fab fa-map-marker
+  
